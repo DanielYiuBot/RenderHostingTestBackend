@@ -23,7 +23,11 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",  # React dev server
         "https://renderhostingtestfrontend.onrender.com",  # Render frontend
-        "http://renderhostingtestfrontend.onrender.com"  # HTTP version
+        "http://renderhostingtestfrontend.onrender.com",  # HTTP version
+        "https://www.lunaforge.us",
+        "http://www.lunaforge.us",
+        "https://lunaforge.us",
+        "http://lunaforge.us",
     ],
     allow_credentials=True,
     allow_methods=["*"],
